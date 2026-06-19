@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="brasao-barboza_512x512.png" alt="Brasão da Família Barboza" width="150"/>
 </p>
