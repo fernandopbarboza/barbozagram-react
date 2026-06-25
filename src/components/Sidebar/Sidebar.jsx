@@ -1,11 +1,10 @@
 import { Avatar, Box, Flex, HStack, Icon, Text, Tooltip } from '@chakra-ui/react'
 import React from 'react'
 import { Link, Link as RouterLink } from 'react-router-dom'
-import { AiFillHome, AiFillInstagram, AiOutlineEdit, AiOutlineInstagram, AiOutlineLogout, AiOutlineNotification, AiOutlineSearch } from 'react-icons/ai'
-
+import { AiFillInstagram, AiOutlineEdit, AiOutlineHome, AiOutlineInstagram, AiOutlineLogout, AiOutlineNotification, AiOutlineSearch } from 'react-icons/ai'
 
 const sidebarItems = [
-    { icon: AiFillHome, text: "Home" },
+    { icon: AiOutlineHome, text: "Home" },
     { icon: AiOutlineSearch, text: "Search" },
     { icon: AiOutlineNotification, text: "Notification" },
     { icon: AiOutlineEdit, text: "Create" },
@@ -56,7 +55,7 @@ const Sidebar = () => {
 
                     <Box alignContent={"center"}>
                         <Avatar.Root>
-                            <Avatar.Image src="public/profilepic.png" />
+                            <Avatar.Image src="/profilepic.png" />
                         </Avatar.Root>
                     </Box>
                 </Flex>
