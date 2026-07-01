@@ -26,12 +26,15 @@ const ProfilePosts = () => {
 
       {!isLoading && (
         <>
-          <ProfilePost img="/img1.png" />
-          <ProfilePost img="/img2.png" />
-          <ProfilePost img="/img3.png" />
-          <ProfilePost img="/img4.png" />
-          <ProfilePost img="/profilepic.png" />
           <ProfilePost img="/barbozagram-logo_512x512.png" />
+          <ProfilePost img="/user-genezio-maria.webp" />
+          <ProfilePost img="/img2.png" />
+          <ProfilePost img="/user-jose.webp" />
+          <ProfilePost img="/user-cicera.webp" />
+          <ProfilePost img="/user-sebastiana.webp" />
+          <ProfilePost img="/user-luiz.webp" />
+          <ProfilePost img="/user-jarbas.webp" />
+          <ProfilePost img="/user-lurdes.webp" />
         </>
       )}
     </Grid>
